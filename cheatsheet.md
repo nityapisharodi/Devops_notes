@@ -1,6 +1,6 @@
-### Quick notes on Git command lines
+## Quick notes on Git command lines
 
-## Git Installation & Configuration
+### Git Installation & Configuration
 
 * git --version  : Checks if Git is already installed and what its version is.
 
@@ -18,7 +18,7 @@
         - Setting default branch name:
                   $ git config --global init.defaultBranch main
   
-## Git basic command line actions
+### Git basic command line actions
 
 * $ git init <directory>.       : creates empty git repository
 * $ git clone                   : makes a copy of an existing repository in GitHub.com to a local machine.
