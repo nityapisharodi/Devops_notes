@@ -22,7 +22,7 @@
 
 * $ git init <directory>.       : creates empty git repository
 * $ git clone                   : makes a copy of an existing repository in GitHub.com to a local machine.
-* $ git add  <directory>.       : Stage all changes in <directory> / <file> for next commit.
+* $ git add --all.              : Stage all changes in <directory> / <file> for next commit.
 * $ git commit -m "message"     : Commit the change with appropriate message.
 * $ git status                  : Lists the status of all the files (staged, unstaged or untracked)
 * $ git remote add <name> <url> : Create a new connection to a remote repo.
@@ -32,3 +32,5 @@
 * $ git pull <remote>           : Fetch the copy of the current branch and merge it into the local copy.
 * $ git push <remote> <branch>  : Push the branch commited in a local repository to <remote> along with necessary commits and objects.
 * $ git log                     : Displays entire commit history
+* $ git fetch -all.             : Displays all branches even that are hidden.
+* $ git branch -r               : Shows all remote branches
