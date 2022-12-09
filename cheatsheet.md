@@ -34,3 +34,12 @@
 * $ git log                     : Displays entire commit history
 * $ git fetch -all.             : Displays all branches even that are hidden.
 * $ git branch -r               : Shows all remote branches
+* $ git tag <tagname>           : Tagging a branch with its version
+* $ git tag -l                  : Lists all the tags
+* git tag -a <tagname> -m <mesg>: Annotated tag with message
+* git tag <tagname>             : Lightweight tag with no other informations
+* git show <tagname>            : Shows information related to a tag
+* git log <project name>        : Log on all commits
+* git tag -d <tagname>          : To delete a tag
+* git fetch origin tag <tagname>: To fetch the initial tag after you delete a tag due to a mistake.
+

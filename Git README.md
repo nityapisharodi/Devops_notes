@@ -25,6 +25,9 @@
 * Pull Request - A method of proposing your changes and asking for review and also place a request to compare and merge the code to the main branch of the same repository or other repositories.
 * Fork - Making a copy of a repository. This helps in code reusability or to suggest changes to a code in another repository.
 * Clone - Pulling a full copy of all the files and related data of a repository in GitHub.com to a local machine. This makes it easier to fix merge conflicts, add or remove files, and push larger commits.
+* Tagging - To tag a branch with its version. There are two types of tag:
+    - Lightweight - It is just a pointer to a commit
+    - Annotated - Has both tag related and commit related details like who tagged/committed(name,email etc) the version.Stored with checksum value.
 
 
 
