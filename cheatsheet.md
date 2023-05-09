@@ -43,4 +43,5 @@
 * git tag -d <tagname>          : To delete a tag
 * git fetch origin tag <tagname>: To fetch the initial tag after you delete a tag due to a mistake.
 * git config --get remote.origin.url: To fetch the origin url of the repo
+* git remote set-url <remote_name> <remote_url>: To change the local repo remote url
 
